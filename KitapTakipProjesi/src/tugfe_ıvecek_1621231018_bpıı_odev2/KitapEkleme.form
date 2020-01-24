@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnKaydetKitapEkle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnGeriE" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Component id="lblBilgiGir" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblYazar" max="32767" attributes="0"/>
+                          <Component id="lblIsbn" max="32767" attributes="0"/>
+                          <Component id="lblKitapIsmi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblBasimYili" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtIsbnNo" max="32767" attributes="0"/>
+                          <Component id="txtBasimYili" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtSayfaSayisi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtFiyat" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtYayınevi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtKitapIsmi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtYazar" pref="132" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblKitapIsmiDurum" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblIsbnDurum" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblBasimYiliDurum" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblSayfaSayisiDurum1" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblFiyatDurum1" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblYayıneviDurum" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="lblYazarDurum" min="-2" pref="143" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="lblBilgiGir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblIsbn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIsbnNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblIsbnDurum" min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblKitapIsmi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtKitapIsmi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblKitapIsmiDurum" min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblBasimYili" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtBasimYili" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblBasimYiliDurum" min="-2" pref="24" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSayfaSayisi" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtFiyat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtYayınevi" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblYazar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtYazar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblSayfaSayisiDurum1" min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblFiyatDurum1" min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblYayıneviDurum" min="-2" pref="24" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblYazarDurum" min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnGeriE" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnKaydetKitapEkle" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblBilgiGir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xfc;tfen Bilgileri Giriniz"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIsbn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Isbn Numarasi :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKitapIsmi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kitap &#x130;smi :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBasimYili">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bas&#x131;m Y&#x131;l&#x131; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sayfa Say&#x131;s&#x131; :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fiyat :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yay&#x131;nevi :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIsbnNo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBasimYili">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSayfaSayisi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtYay&#x131;nevi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFiyat">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtKitapIsmi">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKitapIsmiDurum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIsbnDurum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBasimYiliDurum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblYay&#x131;neviDurum">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSayfaSayisiDurum1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFiyatDurum1">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnKaydetKitapEkle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKaydetKitapEkleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGeriE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Geri"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGeriEActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblYazar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yazar :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtYazar">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblYazarDurum">
+    </Component>
+  </SubComponents>
+</Form>
